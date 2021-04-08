@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+section {
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+}
+
+.logo {
+  position: absolute;
+  width: 300px;
+  fill: deeppink;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 150px;
+  }
+}
